@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tambah Pasien</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pasien_app/style.css' %}">
+</head>
+<body>
+    <h1>Tambah Pasien</h1>
+    <form method="POST">
+        {% csrf_token %}
+        Nama: <input type="text" name="nama" required><br>
+        Umur: <input type="number" name="umur" required><br>
+        Alamat: <textarea name="alamat"></textarea><br>
+        <button type="submit">Simpan</button>
+    </form>
+    <a href="{% url 'index' %}">Kembali</a>
+</body>
+</html>
+

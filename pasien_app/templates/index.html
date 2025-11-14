@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Pasien</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pasien_app/style.css' %}">
+</head>
+<body>
+    <h1>Daftar Pasien</h1>
+    <a href="{% url 'tambah_pasien' %}">Tambah Pasien</a>
+    <ul>
+        {% for p in data_pasien %}
+            <li>
+                {{ p.nama }} - {{ p.umur }} tahun - {{ p.alamat }}
+                [<a href="{% url 'edit_pasien' p.id %}">Edit</a>]
+                [<a href="{% url 'hapus_pasien' p.id %}">Hapus</a>]
+            </li>
+        {% empty %}
+            <li>Belum ada data pasien.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+

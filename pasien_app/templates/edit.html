@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Pasien</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'pasien_app/style.css' %}">
+</head>
+<body>
+    <h1>Edit Pasien</h1>
+    <form method="POST">
+        {% csrf_token %}
+        Nama: <input type="text" name="nama" value="{{ pasien.nama }}" required><br>
+        Umur: <input type="number" name="umur" value="{{ pasien.umur }}" required><br>
+        Alamat: <textarea name="alamat">{{ pasien.alamat }}</textarea><br>
+        <button type="submit">Update</button>
+    </form>
+    <a href="{% url 'index' %}">Kembali</a>
+</body>
+</html>
+
