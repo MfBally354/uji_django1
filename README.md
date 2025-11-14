@@ -59,9 +59,11 @@
 > 💡 **Tips**: Tambahkan screenshot aplikasi Anda di sini!
 
 ```
-[Screenshoot halaman daftar pasien]
-[Screenshoot form tambah pasien]
-[Screenshoot edit data]
+<img width="1920" height="1080" alt="Screenshot (481)" src="https://github.com/user-attachments/assets/474b9106-c9d8-4187-9b1c-3fd00a0121aa" />
+<img width="1920" height="1080" alt="Screenshot (480)" src="https://github.com/user-attachments/assets/554b66c1-d4bf-4b70-b69c-bca707139a06" />
+<img width="1920" height="1080" alt="Screenshot (479)" src="https://github.com/user-attachments/assets/367c3972-7c35-43ae-aa8f-b68c0a0d2c71" />
+
+
 ```
 
 ---
