@@ -56,7 +56,7 @@
 
 ## 🖼️ Preview
 
-> 💡 **Tips**: Tambahkan screenshot aplikasi Anda di sini!
+> 💡 **Tips**: screenshot aplikasi!
 
 ```
 <img width="1920" height="1080" alt="Screenshot (481)" src="https://github.com/user-attachments/assets/474b9106-c9d8-4187-9b1c-3fd00a0121aa" />
